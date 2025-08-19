@@ -1,0 +1,54 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Solana
+test-ledger/
+.anchor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keypairs (security)
+*.json
+!package.json
+!tsconfig.json
+
+# Build artifacts
+dist/
+build/
+*.so
+*.dll
+*.dylib
+
+# Temporary files
+tmp/
+temp/
+*.tmp

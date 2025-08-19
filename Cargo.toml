@@ -1,0 +1,14 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "cargo_swap"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+solana-program = "~1.16"
+spl-token = { version = "~3.5", features = ["no-entrypoint"] }
+borsh = "~0.10"
